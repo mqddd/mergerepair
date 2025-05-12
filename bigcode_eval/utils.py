@@ -54,6 +54,11 @@ class TokenizedDataset(IterableDataset):
         instruction = []
         for sample in range(self.limit_start, self.limit_start + self.n_tasks):
             prompt_contents = self.task.get_prompt(self.dataset[sample])
+
+            # print('_______start_prompt_contents_______')
+            # print(prompt_contents)
+            # print('_______end_prompt_contents_______')
+
             if isinstance(prompt_contents, str):
                 # Normal code completion mode
                 infill.append(False)
@@ -351,6 +356,8 @@ def complete_code(
         code_gens,
         gen_token_dict,
     )
+
+    # print('sample: ', code_gens)
 
     generations.extend(code_gens)
     return generations

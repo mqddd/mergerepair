@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from warnings import warn
 
-from datasets import load_dataset
+from datasets import load_dataset, load_from_disk
 
 
 class Task(ABC):
@@ -15,17 +15,39 @@ class Task(ABC):
     # The name of a subset within `DATASET_PATH`.
     DATASET_NAME: str = None
 
-    def __init__(self, stop_words=None, requires_execution=True):
+    def __init__(self, stop_words=None, requires_execution=True, category=None):
         """
         :param stop_words: list
             list of stop words if the generation uses a stopping criteria during generation
         :param requires_execution: bool
             wheter the task requires code execution during evaluation or not
         """
+        # print("Loading dataset")
         self.stop_words = stop_words
         self.requires_execution = requires_execution
+        print('running evaluations for: ', category)
         try:
-            self.dataset = load_dataset(path=self.DATASET_PATH, name=self.DATASET_NAME)
+            # Meghdad: Changed it to load_dataset from the local file
+            # self.dataset = load_dataset(path=self.DATASET_PATH, name=self.DATASET_NAME)
+            
+            # self.DATASET_PATH = 'correct path to data/humanevalpack/data/python/data/humanevalpack.jsonl'
+            # self.dataset = load_dataset('json', data_files={'test': self.DATASET_PATH})
+            # self.dataset['test'] = self.dataset['test'].select(range(5))
+
+
+            print("Loading dataset from:", self.DATASET_PATH)
+            # self.DATASET_PATH = 'correct path to data/perturbed_humanevalfix/perturbed_humanevalfix.py'
+            # self.dataset = load_dataset(self.DATASET_PATH, 'format', trust_remote_code=True)
+            self.DATASET_PATH = f'correct path to data/perturbed_humanevalfix/{category}'
+            self.dataset = load_from_disk(self.DATASET_PATH)
+            # self.dataset['test'] = self.dataset['test'].select(range(40))
+            print("Loaded dataset in base.py")
+            # self.dataset['test'] = self.dataset['train']
+            # self.dataset['test'] = self.dataset['test'].select(range(5))
+
+            # print("Loaded dataset")
+            print(self.dataset)
+
         except Exception as e:
             warn(
                 f"Loading the dataset failed with {str(e)}. This task will use a locally downloaded dataset, not from the HF hub. \

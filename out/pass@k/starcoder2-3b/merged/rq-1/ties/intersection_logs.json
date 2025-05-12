@@ -1,0 +1,1910 @@
+[
+    {
+        "merged_tasks_1": "T1-T4",
+        "merged_tasks_2": "T1-T2-T4-T5",
+        "intersections": 60,
+        "differences": 10,
+        "difference_set": [
+            "91",
+            "54",
+            "160",
+            "140",
+            "163",
+            "26",
+            "135",
+            "47",
+            "121",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4",
+        "merged_tasks_2": "T1-T3-T4-T5",
+        "intersections": 62,
+        "differences": 5,
+        "difference_set": [
+            "91",
+            "160",
+            "163",
+            "47",
+            "42"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4",
+        "merged_tasks_2": "T1-T3",
+        "intersections": 62,
+        "differences": 11,
+        "difference_set": [
+            "160",
+            "140",
+            "15",
+            "26",
+            "135",
+            "47",
+            "123",
+            "44",
+            "56",
+            "42",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4",
+        "merged_tasks_2": "T1-T2-T3-T4-T5",
+        "intersections": 61,
+        "differences": 11,
+        "difference_set": [
+            "91",
+            "54",
+            "160",
+            "140",
+            "0",
+            "26",
+            "135",
+            "47",
+            "96",
+            "44",
+            "42"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4",
+        "merged_tasks_2": "T1-T2",
+        "intersections": 59,
+        "differences": 13,
+        "difference_set": [
+            "43",
+            "54",
+            "160",
+            "0",
+            "26",
+            "98",
+            "47",
+            "121",
+            "123",
+            "44",
+            "46",
+            "24",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4",
+        "merged_tasks_2": "T1-T4-T5",
+        "intersections": 61,
+        "differences": 8,
+        "difference_set": [
+            "91",
+            "160",
+            "140",
+            "150",
+            "163",
+            "135",
+            "42",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4",
+        "merged_tasks_2": "T1-T2-T3-T4",
+        "intersections": 63,
+        "differences": 9,
+        "difference_set": [
+            "54",
+            "160",
+            "40",
+            "0",
+            "26",
+            "135",
+            "47",
+            "44",
+            "42"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4",
+        "merged_tasks_2": "T1-T2-T3",
+        "intersections": 62,
+        "differences": 15,
+        "difference_set": [
+            "43",
+            "54",
+            "160",
+            "0",
+            "15",
+            "26",
+            "135",
+            "70",
+            "47",
+            "123",
+            "44",
+            "42",
+            "24",
+            "32",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4",
+        "merged_tasks_2": "T1-T3-T4",
+        "intersections": 62,
+        "differences": 7,
+        "difference_set": [
+            "43",
+            "38",
+            "26",
+            "47",
+            "96",
+            "123",
+            "42"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4",
+        "merged_tasks_2": "T1-T3-T5",
+        "intersections": 60,
+        "differences": 12,
+        "difference_set": [
+            "91",
+            "160",
+            "140",
+            "0",
+            "15",
+            "163",
+            "26",
+            "135",
+            "47",
+            "121",
+            "44",
+            "42"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4",
+        "merged_tasks_2": "T1-T2-T3-T5",
+        "intersections": 61,
+        "differences": 12,
+        "difference_set": [
+            "91",
+            "54",
+            "160",
+            "140",
+            "0",
+            "15",
+            "26",
+            "135",
+            "47",
+            "121",
+            "44",
+            "42"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4",
+        "merged_tasks_2": "T1-T2-T5",
+        "intersections": 60,
+        "differences": 13,
+        "difference_set": [
+            "43",
+            "91",
+            "54",
+            "160",
+            "140",
+            "0",
+            "26",
+            "135",
+            "47",
+            "121",
+            "44",
+            "77",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4",
+        "merged_tasks_2": "T1-T5",
+        "intersections": 54,
+        "differences": 15,
+        "difference_set": [
+            "135",
+            "91",
+            "54",
+            "160",
+            "140",
+            "121",
+            "56",
+            "99",
+            "42",
+            "115",
+            "24",
+            "2",
+            "77",
+            "163",
+            "26"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4",
+        "merged_tasks_2": "T1-T2-T4",
+        "intersections": 62,
+        "differences": 9,
+        "difference_set": [
+            "43",
+            "160",
+            "0",
+            "47",
+            "96",
+            "121",
+            "159",
+            "42",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T4-T5",
+        "merged_tasks_2": "T1-T3-T4-T5",
+        "intersections": 62,
+        "differences": 7,
+        "difference_set": [
+            "54",
+            "140",
+            "26",
+            "135",
+            "121",
+            "42",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T4-T5",
+        "merged_tasks_2": "T1-T3",
+        "intersections": 63,
+        "differences": 11,
+        "difference_set": [
+            "91",
+            "54",
+            "15",
+            "163",
+            "121",
+            "123",
+            "44",
+            "56",
+            "42",
+            "32",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T4-T5",
+        "merged_tasks_2": "T1-T2-T3-T4-T5",
+        "intersections": 64,
+        "differences": 7,
+        "difference_set": [
+            "0",
+            "163",
+            "96",
+            "121",
+            "44",
+            "42",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T4-T5",
+        "merged_tasks_2": "T1-T2",
+        "intersections": 61,
+        "differences": 11,
+        "difference_set": [
+            "43",
+            "91",
+            "140",
+            "0",
+            "163",
+            "135",
+            "98",
+            "123",
+            "44",
+            "46",
+            "24"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T4-T5",
+        "merged_tasks_2": "T1-T4-T5",
+        "intersections": 63,
+        "differences": 6,
+        "difference_set": [
+            "54",
+            "150",
+            "26",
+            "47",
+            "121",
+            "42"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T4-T5",
+        "merged_tasks_2": "T1-T2-T3-T4",
+        "intersections": 64,
+        "differences": 9,
+        "difference_set": [
+            "91",
+            "40",
+            "140",
+            "0",
+            "163",
+            "121",
+            "44",
+            "42",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T4-T5",
+        "merged_tasks_2": "T1-T2-T3",
+        "intersections": 64,
+        "differences": 13,
+        "difference_set": [
+            "43",
+            "91",
+            "140",
+            "0",
+            "15",
+            "163",
+            "70",
+            "121",
+            "123",
+            "44",
+            "42",
+            "24",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T4-T5",
+        "merged_tasks_2": "T1-T3-T4",
+        "intersections": 60,
+        "differences": 13,
+        "difference_set": [
+            "43",
+            "91",
+            "54",
+            "160",
+            "140",
+            "38",
+            "163",
+            "135",
+            "96",
+            "121",
+            "123",
+            "42",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T4-T5",
+        "merged_tasks_2": "T1-T3-T5",
+        "intersections": 64,
+        "differences": 6,
+        "difference_set": [
+            "54",
+            "0",
+            "15",
+            "44",
+            "42",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T4-T5",
+        "merged_tasks_2": "T1-T2-T3-T5",
+        "intersections": 65,
+        "differences": 6,
+        "difference_set": [
+            "0",
+            "15",
+            "163",
+            "44",
+            "42",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T4-T5",
+        "merged_tasks_2": "T1-T2-T5",
+        "intersections": 65,
+        "differences": 5,
+        "difference_set": [
+            "43",
+            "0",
+            "163",
+            "44",
+            "77"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T4-T5",
+        "merged_tasks_2": "T1-T5",
+        "intersections": 58,
+        "differences": 9,
+        "difference_set": [
+            "47",
+            "56",
+            "99",
+            "42",
+            "115",
+            "24",
+            "2",
+            "32",
+            "77"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T4-T5",
+        "merged_tasks_2": "T1-T2-T4",
+        "intersections": 62,
+        "differences": 11,
+        "difference_set": [
+            "43",
+            "91",
+            "54",
+            "140",
+            "0",
+            "163",
+            "26",
+            "135",
+            "96",
+            "159",
+            "42"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T4-T5",
+        "merged_tasks_2": "T1-T3",
+        "intersections": 63,
+        "differences": 10,
+        "difference_set": [
+            "91",
+            "140",
+            "15",
+            "163",
+            "26",
+            "135",
+            "123",
+            "44",
+            "56",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T4-T5",
+        "merged_tasks_2": "T1-T2-T3-T4-T5",
+        "intersections": 63,
+        "differences": 8,
+        "difference_set": [
+            "54",
+            "140",
+            "0",
+            "163",
+            "26",
+            "135",
+            "96",
+            "44"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T4-T5",
+        "merged_tasks_2": "T1-T2",
+        "intersections": 59,
+        "differences": 14,
+        "difference_set": [
+            "43",
+            "91",
+            "54",
+            "0",
+            "163",
+            "26",
+            "98",
+            "121",
+            "123",
+            "44",
+            "46",
+            "42",
+            "24",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T4-T5",
+        "merged_tasks_2": "T1-T4-T5",
+        "intersections": 63,
+        "differences": 5,
+        "difference_set": [
+            "140",
+            "150",
+            "135",
+            "47",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T4-T5",
+        "merged_tasks_2": "T1-T2-T3-T4",
+        "intersections": 64,
+        "differences": 8,
+        "difference_set": [
+            "91",
+            "54",
+            "40",
+            "0",
+            "163",
+            "26",
+            "135",
+            "44"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T4-T5",
+        "merged_tasks_2": "T1-T2-T3",
+        "intersections": 63,
+        "differences": 14,
+        "difference_set": [
+            "43",
+            "91",
+            "54",
+            "0",
+            "15",
+            "163",
+            "26",
+            "135",
+            "70",
+            "123",
+            "44",
+            "24",
+            "32",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T4-T5",
+        "merged_tasks_2": "T1-T3-T4",
+        "intersections": 62,
+        "differences": 8,
+        "difference_set": [
+            "43",
+            "91",
+            "160",
+            "38",
+            "163",
+            "26",
+            "96",
+            "123"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T4-T5",
+        "merged_tasks_2": "T1-T3-T5",
+        "intersections": 63,
+        "differences": 7,
+        "difference_set": [
+            "140",
+            "0",
+            "15",
+            "26",
+            "135",
+            "121",
+            "44"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T4-T5",
+        "merged_tasks_2": "T1-T2-T3-T5",
+        "intersections": 63,
+        "differences": 9,
+        "difference_set": [
+            "54",
+            "140",
+            "0",
+            "15",
+            "163",
+            "26",
+            "135",
+            "121",
+            "44"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T4-T5",
+        "merged_tasks_2": "T1-T2-T5",
+        "intersections": 61,
+        "differences": 12,
+        "difference_set": [
+            "43",
+            "54",
+            "140",
+            "0",
+            "163",
+            "26",
+            "135",
+            "121",
+            "44",
+            "42",
+            "77",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T4-T5",
+        "merged_tasks_2": "T1-T5",
+        "intersections": 56,
+        "differences": 12,
+        "difference_set": [
+            "135",
+            "54",
+            "47",
+            "140",
+            "121",
+            "56",
+            "99",
+            "115",
+            "24",
+            "2",
+            "77",
+            "26"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T4-T5",
+        "merged_tasks_2": "T1-T2-T4",
+        "intersections": 63,
+        "differences": 8,
+        "difference_set": [
+            "43",
+            "91",
+            "0",
+            "163",
+            "96",
+            "121",
+            "159",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3",
+        "merged_tasks_2": "T1-T2-T3-T4-T5",
+        "intersections": 66,
+        "differences": 8,
+        "difference_set": [
+            "91",
+            "54",
+            "0",
+            "15",
+            "96",
+            "123",
+            "56",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3",
+        "merged_tasks_2": "T1-T2",
+        "intersections": 62,
+        "differences": 14,
+        "difference_set": [
+            "43",
+            "54",
+            "140",
+            "0",
+            "15",
+            "135",
+            "98",
+            "121",
+            "56",
+            "46",
+            "42",
+            "24",
+            "32",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3",
+        "merged_tasks_2": "T1-T4-T5",
+        "intersections": 63,
+        "differences": 11,
+        "difference_set": [
+            "91",
+            "150",
+            "15",
+            "163",
+            "26",
+            "47",
+            "123",
+            "44",
+            "56",
+            "32",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3",
+        "merged_tasks_2": "T1-T2-T3-T4",
+        "intersections": 67,
+        "differences": 8,
+        "difference_set": [
+            "54",
+            "40",
+            "140",
+            "0",
+            "15",
+            "123",
+            "56",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3",
+        "merged_tasks_2": "T1-T2-T3",
+        "intersections": 69,
+        "differences": 8,
+        "difference_set": [
+            "43",
+            "54",
+            "140",
+            "0",
+            "70",
+            "56",
+            "24",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3",
+        "merged_tasks_2": "T1-T3-T4",
+        "intersections": 64,
+        "differences": 10,
+        "difference_set": [
+            "43",
+            "160",
+            "140",
+            "38",
+            "15",
+            "135",
+            "96",
+            "44",
+            "56",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3",
+        "merged_tasks_2": "T1-T3-T5",
+        "intersections": 66,
+        "differences": 7,
+        "difference_set": [
+            "91",
+            "0",
+            "163",
+            "121",
+            "123",
+            "56",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3",
+        "merged_tasks_2": "T1-T2-T3-T5",
+        "intersections": 67,
+        "differences": 7,
+        "difference_set": [
+            "91",
+            "54",
+            "0",
+            "121",
+            "123",
+            "56",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3",
+        "merged_tasks_2": "T1-T2-T5",
+        "intersections": 64,
+        "differences": 12,
+        "difference_set": [
+            "43",
+            "91",
+            "54",
+            "0",
+            "15",
+            "121",
+            "123",
+            "56",
+            "42",
+            "77",
+            "32",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3",
+        "merged_tasks_2": "T1-T5",
+        "intersections": 58,
+        "differences": 14,
+        "difference_set": [
+            "91",
+            "54",
+            "47",
+            "121",
+            "123",
+            "44",
+            "99",
+            "115",
+            "24",
+            "15",
+            "2",
+            "77",
+            "163",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3",
+        "merged_tasks_2": "T1-T2-T4",
+        "intersections": 63,
+        "differences": 14,
+        "difference_set": [
+            "43",
+            "140",
+            "0",
+            "15",
+            "26",
+            "135",
+            "96",
+            "121",
+            "123",
+            "44",
+            "56",
+            "159",
+            "32",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3-T4-T5",
+        "merged_tasks_2": "T1-T2",
+        "intersections": 62,
+        "differences": 12,
+        "difference_set": [
+            "43",
+            "91",
+            "140",
+            "135",
+            "98",
+            "96",
+            "121",
+            "123",
+            "46",
+            "42",
+            "24",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3-T4-T5",
+        "merged_tasks_2": "T1-T4-T5",
+        "intersections": 63,
+        "differences": 9,
+        "difference_set": [
+            "54",
+            "0",
+            "150",
+            "163",
+            "26",
+            "47",
+            "96",
+            "44",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3-T4-T5",
+        "merged_tasks_2": "T1-T2-T3-T4",
+        "intersections": 68,
+        "differences": 4,
+        "difference_set": [
+            "91",
+            "40",
+            "140",
+            "96"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3-T4-T5",
+        "merged_tasks_2": "T1-T2-T3",
+        "intersections": 67,
+        "differences": 10,
+        "difference_set": [
+            "43",
+            "91",
+            "140",
+            "15",
+            "70",
+            "96",
+            "123",
+            "24",
+            "32",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3-T4-T5",
+        "merged_tasks_2": "T1-T3-T4",
+        "intersections": 63,
+        "differences": 10,
+        "difference_set": [
+            "43",
+            "91",
+            "54",
+            "160",
+            "140",
+            "38",
+            "0",
+            "135",
+            "123",
+            "44"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3-T4-T5",
+        "merged_tasks_2": "T1-T3-T5",
+        "intersections": 66,
+        "differences": 5,
+        "difference_set": [
+            "54",
+            "15",
+            "163",
+            "96",
+            "121"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3-T4-T5",
+        "merged_tasks_2": "T1-T2-T3-T5",
+        "intersections": 68,
+        "differences": 3,
+        "difference_set": [
+            "15",
+            "96",
+            "121"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3-T4-T5",
+        "merged_tasks_2": "T1-T2-T5",
+        "intersections": 66,
+        "differences": 6,
+        "difference_set": [
+            "43",
+            "96",
+            "121",
+            "42",
+            "77",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3-T4-T5",
+        "merged_tasks_2": "T1-T5",
+        "intersections": 58,
+        "differences": 12,
+        "difference_set": [
+            "47",
+            "96",
+            "0",
+            "121",
+            "44",
+            "56",
+            "99",
+            "115",
+            "24",
+            "2",
+            "77",
+            "163"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3-T4-T5",
+        "merged_tasks_2": "T1-T2-T4",
+        "intersections": 64,
+        "differences": 10,
+        "difference_set": [
+            "43",
+            "91",
+            "54",
+            "140",
+            "26",
+            "135",
+            "121",
+            "44",
+            "159",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2",
+        "merged_tasks_2": "T1-T4-T5",
+        "intersections": 58,
+        "differences": 17,
+        "difference_set": [
+            "43",
+            "91",
+            "54",
+            "140",
+            "0",
+            "150",
+            "163",
+            "26",
+            "135",
+            "98",
+            "47",
+            "121",
+            "123",
+            "44",
+            "46",
+            "42",
+            "24"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2",
+        "merged_tasks_2": "T1-T2-T3-T4",
+        "intersections": 64,
+        "differences": 10,
+        "difference_set": [
+            "43",
+            "40",
+            "135",
+            "98",
+            "121",
+            "123",
+            "46",
+            "42",
+            "24",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2",
+        "merged_tasks_2": "T1-T2-T3",
+        "intersections": 67,
+        "differences": 8,
+        "difference_set": [
+            "15",
+            "135",
+            "70",
+            "98",
+            "121",
+            "46",
+            "42",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2",
+        "merged_tasks_2": "T1-T3-T4",
+        "intersections": 61,
+        "differences": 12,
+        "difference_set": [
+            "54",
+            "160",
+            "38",
+            "0",
+            "98",
+            "96",
+            "121",
+            "44",
+            "46",
+            "42",
+            "24",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2",
+        "merged_tasks_2": "T1-T3-T5",
+        "intersections": 61,
+        "differences": 13,
+        "difference_set": [
+            "43",
+            "91",
+            "54",
+            "140",
+            "15",
+            "163",
+            "135",
+            "98",
+            "123",
+            "46",
+            "42",
+            "24",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2",
+        "merged_tasks_2": "T1-T2-T3-T5",
+        "intersections": 63,
+        "differences": 11,
+        "difference_set": [
+            "43",
+            "91",
+            "140",
+            "15",
+            "135",
+            "98",
+            "123",
+            "46",
+            "42",
+            "24",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2",
+        "merged_tasks_2": "T1-T2-T5",
+        "intersections": 64,
+        "differences": 8,
+        "difference_set": [
+            "91",
+            "140",
+            "135",
+            "98",
+            "123",
+            "46",
+            "24",
+            "77"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2",
+        "merged_tasks_2": "T1-T5",
+        "intersections": 54,
+        "differences": 18,
+        "difference_set": [
+            "135",
+            "98",
+            "43",
+            "91",
+            "47",
+            "140",
+            "0",
+            "123",
+            "44",
+            "56",
+            "99",
+            "46",
+            "42",
+            "115",
+            "2",
+            "32",
+            "77",
+            "163"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2",
+        "merged_tasks_2": "T1-T2-T4",
+        "intersections": 63,
+        "differences": 10,
+        "difference_set": [
+            "54",
+            "26",
+            "98",
+            "96",
+            "123",
+            "44",
+            "159",
+            "46",
+            "42",
+            "24"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4-T5",
+        "merged_tasks_2": "T1-T2-T3-T4",
+        "intersections": 63,
+        "differences": 11,
+        "difference_set": [
+            "91",
+            "54",
+            "40",
+            "140",
+            "0",
+            "150",
+            "163",
+            "26",
+            "47",
+            "44",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4-T5",
+        "merged_tasks_2": "T1-T2-T3",
+        "intersections": 63,
+        "differences": 15,
+        "difference_set": [
+            "43",
+            "91",
+            "54",
+            "140",
+            "0",
+            "150",
+            "15",
+            "163",
+            "26",
+            "70",
+            "47",
+            "123",
+            "44",
+            "24",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4-T5",
+        "merged_tasks_2": "T1-T3-T4",
+        "intersections": 60,
+        "differences": 13,
+        "difference_set": [
+            "43",
+            "91",
+            "160",
+            "140",
+            "38",
+            "150",
+            "163",
+            "26",
+            "135",
+            "47",
+            "96",
+            "123",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4-T5",
+        "merged_tasks_2": "T1-T3-T5",
+        "intersections": 63,
+        "differences": 8,
+        "difference_set": [
+            "0",
+            "150",
+            "15",
+            "26",
+            "47",
+            "121",
+            "44",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4-T5",
+        "merged_tasks_2": "T1-T2-T3-T5",
+        "intersections": 63,
+        "differences": 10,
+        "difference_set": [
+            "54",
+            "0",
+            "150",
+            "15",
+            "163",
+            "26",
+            "47",
+            "121",
+            "44",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4-T5",
+        "merged_tasks_2": "T1-T2-T5",
+        "intersections": 62,
+        "differences": 11,
+        "difference_set": [
+            "43",
+            "54",
+            "0",
+            "150",
+            "163",
+            "26",
+            "47",
+            "121",
+            "44",
+            "42",
+            "77"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4-T5",
+        "merged_tasks_2": "T1-T5",
+        "intersections": 57,
+        "differences": 11,
+        "difference_set": [
+            "54",
+            "121",
+            "56",
+            "99",
+            "150",
+            "115",
+            "24",
+            "2",
+            "32",
+            "77",
+            "26"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T4-T5",
+        "merged_tasks_2": "T1-T2-T4",
+        "intersections": 62,
+        "differences": 11,
+        "difference_set": [
+            "43",
+            "91",
+            "140",
+            "0",
+            "150",
+            "163",
+            "135",
+            "47",
+            "96",
+            "121",
+            "159"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3-T4",
+        "merged_tasks_2": "T1-T2-T3",
+        "intersections": 69,
+        "differences": 8,
+        "difference_set": [
+            "43",
+            "40",
+            "15",
+            "70",
+            "123",
+            "24",
+            "32",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3-T4",
+        "merged_tasks_2": "T1-T3-T4",
+        "intersections": 64,
+        "differences": 10,
+        "difference_set": [
+            "43",
+            "54",
+            "160",
+            "40",
+            "38",
+            "0",
+            "135",
+            "96",
+            "123",
+            "44"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3-T4",
+        "merged_tasks_2": "T1-T3-T5",
+        "intersections": 66,
+        "differences": 7,
+        "difference_set": [
+            "91",
+            "54",
+            "40",
+            "140",
+            "15",
+            "163",
+            "121"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3-T4",
+        "merged_tasks_2": "T1-T2-T3-T5",
+        "intersections": 68,
+        "differences": 5,
+        "difference_set": [
+            "91",
+            "40",
+            "140",
+            "15",
+            "121"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3-T4",
+        "merged_tasks_2": "T1-T2-T5",
+        "intersections": 66,
+        "differences": 8,
+        "difference_set": [
+            "43",
+            "91",
+            "40",
+            "140",
+            "121",
+            "42",
+            "77",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3-T4",
+        "merged_tasks_2": "T1-T5",
+        "intersections": 58,
+        "differences": 14,
+        "difference_set": [
+            "91",
+            "47",
+            "40",
+            "140",
+            "0",
+            "121",
+            "44",
+            "56",
+            "99",
+            "115",
+            "24",
+            "2",
+            "77",
+            "163"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3-T4",
+        "merged_tasks_2": "T1-T2-T4",
+        "intersections": 65,
+        "differences": 10,
+        "difference_set": [
+            "43",
+            "54",
+            "40",
+            "26",
+            "135",
+            "96",
+            "121",
+            "44",
+            "159",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3",
+        "merged_tasks_2": "T1-T3-T4",
+        "intersections": 65,
+        "differences": 12,
+        "difference_set": [
+            "54",
+            "160",
+            "38",
+            "0",
+            "15",
+            "135",
+            "70",
+            "96",
+            "44",
+            "24",
+            "32",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3",
+        "merged_tasks_2": "T1-T3-T5",
+        "intersections": 66,
+        "differences": 11,
+        "difference_set": [
+            "43",
+            "91",
+            "54",
+            "140",
+            "163",
+            "70",
+            "121",
+            "123",
+            "24",
+            "32",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3",
+        "merged_tasks_2": "T1-T2-T3-T5",
+        "intersections": 68,
+        "differences": 9,
+        "difference_set": [
+            "43",
+            "91",
+            "140",
+            "70",
+            "121",
+            "123",
+            "24",
+            "32",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3",
+        "merged_tasks_2": "T1-T2-T5",
+        "intersections": 67,
+        "differences": 10,
+        "difference_set": [
+            "91",
+            "140",
+            "15",
+            "70",
+            "121",
+            "123",
+            "42",
+            "24",
+            "77",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3",
+        "merged_tasks_2": "T1-T5",
+        "intersections": 58,
+        "differences": 18,
+        "difference_set": [
+            "70",
+            "43",
+            "91",
+            "47",
+            "140",
+            "0",
+            "121",
+            "123",
+            "44",
+            "56",
+            "99",
+            "115",
+            "77",
+            "15",
+            "2",
+            "32",
+            "163",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3",
+        "merged_tasks_2": "T1-T2-T4",
+        "intersections": 66,
+        "differences": 12,
+        "difference_set": [
+            "54",
+            "15",
+            "26",
+            "135",
+            "70",
+            "96",
+            "121",
+            "123",
+            "44",
+            "159",
+            "24",
+            "67"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T4",
+        "merged_tasks_2": "T1-T3-T5",
+        "intersections": 61,
+        "differences": 13,
+        "difference_set": [
+            "43",
+            "91",
+            "160",
+            "140",
+            "0",
+            "38",
+            "15",
+            "163",
+            "135",
+            "96",
+            "121",
+            "123",
+            "44"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T4",
+        "merged_tasks_2": "T1-T2-T3-T5",
+        "intersections": 62,
+        "differences": 13,
+        "difference_set": [
+            "43",
+            "91",
+            "54",
+            "160",
+            "140",
+            "0",
+            "38",
+            "15",
+            "135",
+            "96",
+            "121",
+            "123",
+            "44"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T4",
+        "merged_tasks_2": "T1-T2-T5",
+        "intersections": 61,
+        "differences": 14,
+        "difference_set": [
+            "91",
+            "54",
+            "160",
+            "140",
+            "0",
+            "38",
+            "135",
+            "96",
+            "121",
+            "123",
+            "44",
+            "42",
+            "77",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T4",
+        "merged_tasks_2": "T1-T5",
+        "intersections": 54,
+        "differences": 18,
+        "difference_set": [
+            "135",
+            "43",
+            "54",
+            "91",
+            "47",
+            "160",
+            "96",
+            "140",
+            "38",
+            "121",
+            "123",
+            "56",
+            "99",
+            "115",
+            "24",
+            "2",
+            "77",
+            "163"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T4",
+        "merged_tasks_2": "T1-T2-T4",
+        "intersections": 64,
+        "differences": 8,
+        "difference_set": [
+            "160",
+            "0",
+            "38",
+            "26",
+            "121",
+            "123",
+            "159",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T5",
+        "merged_tasks_2": "T1-T2-T3-T5",
+        "intersections": 68,
+        "differences": 2,
+        "difference_set": [
+            "54",
+            "163"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T5",
+        "merged_tasks_2": "T1-T2-T5",
+        "intersections": 65,
+        "differences": 7,
+        "difference_set": [
+            "43",
+            "54",
+            "15",
+            "163",
+            "42",
+            "77",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T5",
+        "merged_tasks_2": "T1-T5",
+        "intersections": 58,
+        "differences": 11,
+        "difference_set": [
+            "54",
+            "47",
+            "0",
+            "44",
+            "56",
+            "99",
+            "115",
+            "24",
+            "15",
+            "2",
+            "77"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T3-T5",
+        "merged_tasks_2": "T1-T2-T4",
+        "intersections": 63,
+        "differences": 11,
+        "difference_set": [
+            "43",
+            "91",
+            "140",
+            "15",
+            "163",
+            "26",
+            "135",
+            "96",
+            "44",
+            "159",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3-T5",
+        "merged_tasks_2": "T1-T2-T5",
+        "intersections": 67,
+        "differences": 5,
+        "difference_set": [
+            "43",
+            "15",
+            "42",
+            "77",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3-T5",
+        "merged_tasks_2": "T1-T5",
+        "intersections": 59,
+        "differences": 11,
+        "difference_set": [
+            "47",
+            "0",
+            "44",
+            "56",
+            "99",
+            "115",
+            "24",
+            "15",
+            "2",
+            "77",
+            "163"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T3-T5",
+        "merged_tasks_2": "T1-T2-T4",
+        "intersections": 64,
+        "differences": 11,
+        "difference_set": [
+            "43",
+            "91",
+            "54",
+            "140",
+            "15",
+            "26",
+            "135",
+            "96",
+            "44",
+            "159",
+            "32"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T5",
+        "merged_tasks_2": "T1-T5",
+        "intersections": 58,
+        "differences": 12,
+        "difference_set": [
+            "43",
+            "47",
+            "0",
+            "44",
+            "56",
+            "99",
+            "42",
+            "115",
+            "24",
+            "2",
+            "32",
+            "163"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T2-T5",
+        "merged_tasks_2": "T1-T2-T4",
+        "intersections": 64,
+        "differences": 10,
+        "difference_set": [
+            "91",
+            "54",
+            "140",
+            "26",
+            "135",
+            "96",
+            "44",
+            "159",
+            "42",
+            "77"
+        ]
+    },
+    {
+        "merged_tasks_1": "T1-T5",
+        "merged_tasks_2": "T1-T2-T4",
+        "intersections": 55,
+        "differences": 18,
+        "difference_set": [
+            "43",
+            "91",
+            "54",
+            "140",
+            "0",
+            "99",
+            "163",
+            "26",
+            "135",
+            "47",
+            "96",
+            "56",
+            "159",
+            "115",
+            "24",
+            "77",
+            "2",
+            "32"
+        ]
+    }
+]

@@ -157,7 +157,9 @@ def create_task(language, name):
 
 class HumanEvalPack(Task):
     """Parent class for all HumanEvalPack tasks"""
-    DATASET_PATH = "bigcode/humanevalpack"
+    """Meghdad: Changed it to local path as we cannot connect to the internet in ARC"""
+    # DATASET_PATH = "bigcode/humanevalpack"
+    DATASET_PATH = "correct path to data/humanevalpack/"
     DATASET_NAME = None
 
     def __init__(self, prompt="instruct", language="python", with_docs=True):
@@ -212,6 +214,9 @@ class HumanEvalPack(Task):
             prompt = inp + "\n\n" + prompt_base
         elif self.prompt == "octocoder":
             prompt = f'Question: {inp}\n\nAnswer:\n{prompt_base}'
+            # print('______start_prompt with octocoder______')
+            # print(prompt)
+            # print('______end_prompt with octocoder______')
         elif self.prompt == "octogeex":
             prompt = f'Question: {inp.strip()}\n\nAnswer:\n{prompt_base}'            
         elif self.prompt == "starchat":
@@ -344,7 +349,7 @@ class HumanEvalPackGenerative(HumanEvalPack):
         # Strip to maintain same behavior as with get_prompt
         return doc["prompt"].rstrip() + gen
         
-    def process_results(self, generations, references):
+    def process_results(self, generations, references, adapter_tasks):
         """Takes the list of LM generations and evaluates them against ground truth references.
 
         :param generations: list(list(str))
@@ -352,7 +357,9 @@ class HumanEvalPackGenerative(HumanEvalPack):
         :param references: list(str)
             list of str containing refrences
         """
-        code_metric = load("Muennighoff/code_eval_octopack")
+        # Meghdad: Changed it to load from local path as we cannot connect to the internet in ARC
+        # code_metric = load("Muennighoff/code_eval_octopack")
+        code_metric = load("correct path to evaluate/code_eval_octopack/code_eval_octopack/")
         timeout = LANGUAGE_TO_TIMEOUT[self.DATASET_NAME]
         num_workers = LANGUAGE_TO_NUM_WORKERS[self.DATASET_NAME]
         language = self.DATASET_NAME if self.DATASET_NAME != "js" else "javascript"
@@ -471,7 +478,7 @@ class HumanEvalPackGenerative(HumanEvalPack):
             num_workers=num_workers,
         )
         # Write logs to json
-        with open("logs.json", "w") as f:
+        with open(f"logs_{adapter_tasks}.json", "w") as f:
             json.dump(logs, f, indent=4, ensure_ascii=False)
 
         """Debugging help
@@ -528,6 +535,11 @@ class HumanEvalFixBase(HumanEvalPackGenerative):
             prompt = f"<issue_start>username_0: {instruction}\n\n```{context}```\nUpvotes: 100<issue_comment>username_1: Sure, here is the fixed code.\n\n```{prompt_base}"
         else:
             prompt = super().get_prompt(prompt_base, instruction, context)
+        
+        # print('______start_prompt with octocoder______')
+        # print(prompt)
+        # print('______end_prompt with octocoder______')
+        
         return prompt.strip()
 
     def postprocess_generation(self, generation, idx):

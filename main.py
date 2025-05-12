@@ -242,6 +242,8 @@ def main():
     accelerator = Accelerator()
     if accelerator.is_main_process:
         print(f"Selected Tasks: {task_names}")
+    
+    adapter_tasks = args.peft_model.split("/")[-1] if args.peft_model else None
 
     results = {}
     if args.load_generations_path:
@@ -370,7 +372,6 @@ def main():
                 "If passing --load_generations_intermediate_paths, \
                 must pass equal number of files as number of tasks"
             )
-
         for idx, task in enumerate(task_names):
             intermediate_generations = None
             if args.load_generations_intermediate_paths:
@@ -396,7 +397,7 @@ def main():
                     )
             else:
                 results[task] = evaluator.evaluate(
-                    task, intermediate_generations=intermediate_generations
+                    task, intermediate_generations=intermediate_generations, adapter_tasks=adapter_tasks
                 )
 
     # Save all args to config
@@ -405,8 +406,8 @@ def main():
         dumped = json.dumps(results, indent=2)
         if accelerator.is_main_process:
             print(dumped)
-
-        with open(args.metric_output_path, "w") as f:
+        metric_output_path = f"{os.path.splitext(args.metric_output_path)[0]}_{adapter_tasks}.json"
+        with open(metric_output_path, "w") as f:
             f.write(dumped)
 
 
