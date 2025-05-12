@@ -1,6 +1,0 @@
-[submodule "evaluation/bigcode-evaluation-harness"]
-	path = evaluation/bigcode-evaluation-harness
-	url = https://github.com/bigcode-project/bigcode-evaluation-harness.git
-[submodule "evaluation/recode"]
-	path = evaluation/recode
-	url = https://github.com/amazon-science/recode.git
