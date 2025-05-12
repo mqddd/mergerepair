@@ -13,7 +13,7 @@ def sep_doc(data, prompt, entry_point):
     the whole documents in prompt including docstring & examples.
     """
     # sep into header, docstring only (without any special charaters like """), examples
-    if data in ["humaneval", "mbpp"]:
+    if data in ["humaneval", "mbpp", "humanevalfix"]:
         start = prompt.find('"""', prompt.find(entry_point)) 
         if start == -1: # some humaneval will use "'''" for docstrings
             start = prompt.find('\'\'\'', prompt.find(entry_point)) 
@@ -77,6 +77,7 @@ def word_blacklist(code_string, language="python"):
     # tsf = VarRenamerBase("natgen/languages.so", language)
     if language == "humaneval": language = "python"
     if language == "mbpp": language = "python"
+    if language == "humanevalfix": language = "python"
     tsf = VarRenamerBase("natgen/treesitter/build/my-languages.so", language)
     
     root = tsf.parse_code(code_string)

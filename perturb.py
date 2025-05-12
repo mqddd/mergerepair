@@ -33,7 +33,7 @@ def set_seed(seed, deterministic=True):
 
 
 def get_languages(data):
-    if data in ["humaneval", "mbpp"]:
+    if data in ["humaneval", "mbpp", "humanevalfix"]:
         return "python"
     if data in ["python"]:
         return data
@@ -133,7 +133,7 @@ def ptb_doc(doc, ptb, seed=0, black_list=[]):
 def ptb_entry(args, entry, ptb, seed=0):
     head, doc, cases = sep_doc(args.data, entry['prompt'], entry["entry_point"])
     # we need to maintain a blacklist for variable names, function names, and type names such that we will not perturb these names
-    if args.data in ["humaneval", "mbpp"]: 
+    if args.data in ["humaneval", "mbpp", "humanevalfix"]: 
         code_string = entry["prompt"] + entry["canonical_solution"]
     elif args.data in ["mbjp", "mbjsp"]: 
         code_string = entry["prompt"]
@@ -262,7 +262,7 @@ def perturb_partial(args, data, recipes):
         else:
             new_code = code
             # new_code = res["prompt"]
-            if args.data in ["humaneval", "mbpp"]:
+            if args.data in ["humaneval", "mbpp", "humanevalfix"]:
                 new_code = new_code.replace(";\n", "\n").replace(";", "\n")
             if "@@this is the line to split##" in code:
                 # uncomment the split such that deadcode can also be inserted before this line; If comment, indent will be wrong with deadcode insertion
@@ -427,7 +427,7 @@ if __name__ == '__main__':
     """ The main function to perform perturbations
     """
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data', type=str, default="humaneval", choices=["humaneval", "mbpp", "mbjp", "mbjsp", "mbkp", "mbphp", "mbrbp"])
+    parser.add_argument('--data', type=str, default="humaneval", choices=["humaneval", "mbpp", "mbjp", "mbjsp", "mbkp", "mbphp", "mbrbp", "humanevalfix"])
     parser.add_argument('--config', default="config.json", help="The config to run.")
     parser.add_argument('--rng-seed', type=int, default=42, help="global random seed.")
     parser.add_argument('--rng-deterministic', type=bool, default=True)
@@ -481,10 +481,12 @@ if __name__ == '__main__':
             exit()
         # if args.seed != 0:
         args.output_name += f"_s{args.seed}"
+        # print('seed is:', args.seed)
     if args.output_name[:-6] != ".jsonl":
         args.output_name += ".jsonl"
     output_adv_path = os.path.join(output_adv_path, args.output_name)
-    print(f"generated outputs will be saved in {output_adv_path}")
+    # print('output name:', args.output_name)
+    # print(f"generated outputs will be saved in {output_adv_path}")
     # handle overwrite if exists
     if os.path.exists(output_adv_path) and not args.print_sample:
         print(f"{output_adv_path} exists")

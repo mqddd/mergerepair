@@ -49,7 +49,7 @@ for dataset in $datasets; do
                 model_provider=EleutherAI
             else
                 echo "unkown model $model_name"
-                exit
+                # exit
             fi
 
         if [[ "$model_name" != *"incoder"* ]]; then
@@ -64,9 +64,13 @@ for dataset in $datasets; do
 	
 	#if false; then
 	# generate
-        python3 -m torch.distributed.run --nproc_per_node $num_gpu --master_port 20000 evaluate-public-models/evaluate_model.py \
-		--model_name_or_path $model_provider/$model_name \
-		--tokenizer_name $model_provider/$model_name \
+        # previous value for model_name_or_path and tokenizer_name
+    	# --model_name_or_path $model_provider/$model_name \
+        # --tokenizer_name $model_provider/$model_name \
+        # python3 -m torch.distributed.run --nproc_per_node $num_gpu --master_port 20000 evaluate-public-models/evaluate_model.py \
+        python3 evaluate-public-models/evaluate_model.py \
+        --model_name_or_path $model_name \
+		--tokenizer_name $model_name \
 		--output_dir $output_dir \
 		--programming_lang $lang \
 		--test_file $test_file \
@@ -75,9 +79,12 @@ for dataset in $datasets; do
 	#fi
 
         # evaluate
+        # previous value for model_name_or_path
+    	# --model_name_or_path $model_provider/$model_name \
+        # --tokenizer_name $model_provider/$model_name \
         python3 evaluate-public-models/evaluate_model.py \
-		--model_name_or_path $model_provider/$model_name \
-		--tokenizer_name $model_provider/$model_name \
+		--model_name_or_path $model_name \
+		--tokenizer_name $model_name \
 		--output_dir $output_dir \
 		--programming_lang $lang \
 		--test_file $test_file \

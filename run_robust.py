@@ -176,8 +176,12 @@ def evaluate_perturbed_datasets(args):
                 for seed in range(args.n_outputs):
                     if RECIPES[method][aug_method] not in RANDOM_TRANS and seed >= 1: # skip other seeds since they are not in random
                         continue
-                    test_file = f"{cwd}/{output_adv_path}/{dataset}/{evalset}/{method}/{dataset}_{RECIPES[method][aug_method]}_s{seed}.jsonl"
-                    output_folder = f"{cwd}/{model_generate_path}/{model}/{evalset}/{dataset}/{method}/{dataset}_{RECIPES[method][aug_method]}/s{seed}"
+                    # test_file = f"{cwd}/{output_adv_path}/{dataset}/{evalset}/{method}/{dataset}_{RECIPES[method][aug_method]}_s{seed}.jsonl"
+                    # output_folder = f"{cwd}/{model_generate_path}/{model}/{evalset}/{dataset}/{method}/{dataset}_{RECIPES[method][aug_method]}/s{seed}"
+                    # generated_sample_path = os.path.join(output_folder, f"{policy}/samples.jsonl")
+
+                    test_file = os.path.join(cwd, output_adv_path, dataset, evalset, method, f"{dataset}_{RECIPES[method][aug_method]}_s{seed}.jsonl")
+                    output_folder = os.path.join(cwd, model_generate_path, model.split('/')[-1], evalset, dataset, method, f"{dataset}_{RECIPES[method][aug_method]}", f"s{seed}")
                     generated_sample_path = os.path.join(output_folder, f"{policy}/samples.jsonl")
 
                     cmd1 = f"bash {run_script} {test_file} {output_folder} {dataset} {model} {args.ngpus} {args.overwrite} {args.num_samples}"
@@ -223,6 +227,7 @@ def print_sample_analysis(args):
     else:
         data_perturbed = read_json(f"{perturbed_path}/{dataset}_random_s{args.seed}.jsonl") # perturbed data file
     data = [data_orig, data_perturbed]
+    # print(data[1])
 
     if args.method in ["natgen", "format"]:
         data_partial = read_json(f"{data_path}/{dataset}_partial.jsonl")

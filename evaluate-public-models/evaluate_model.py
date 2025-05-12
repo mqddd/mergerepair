@@ -18,18 +18,18 @@ def parse_args():
     parser.add_argument('--tokenizer_name', type=str, default='',
                         help='tokenizer name/path')
     parser.add_argument("--max-memory-per-gpu", type=str, 
-                        help="Defines maximum memory allocated to gpu", default='28GB')
+                        help="Defines maximum memory allocated to gpu", default='32GB')
     parser.add_argument('--max_length', type=int, default=2048,
                         help='maximum total length')
     parser.add_argument('--max_context_length', type=int, default=1792,
                         help='maximum prompt length')
-    parser.add_argument('--do_sample', default=False, action='store_true',
+    parser.add_argument('--do_sample', default=True, action='store_true',
                         help='Sample / Greedy generation')
-    parser.add_argument('--temperature', type=float, default=0.4,
+    parser.add_argument('--temperature', type=float, default=0.2,
                         help='temperature')
     parser.add_argument('--top_p', type=float, default=0.95,
                         help='top p')
-    parser.add_argument('--top_k', type=int, default=200,
+    parser.add_argument('--top_k', type=int, default=0,
                         help='top k')
     parser.add_argument('--num_beams', type=int, default=1,
                         help='number of beams')
@@ -37,7 +37,7 @@ def parse_args():
                         help='number of samples')
     parser.add_argument('--run_eval_only', default=False, action='store_true',
                         help='Run debugging part of the code')
-    parser.add_argument('--bf16', default=False, action='store_true',
+    parser.add_argument('--bf16', default=True, action='store_true',
                         help='To use brain float 16')
     parser.add_argument('--fp16', default=False, action='store_true',
                         help='To use float 16')
