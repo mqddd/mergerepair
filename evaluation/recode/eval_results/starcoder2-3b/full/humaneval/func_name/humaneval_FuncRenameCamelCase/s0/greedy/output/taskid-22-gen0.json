@@ -1,0 +1,1 @@
+{"task_id": "HumanEval/22", "completion": "", "ori_pred": "", "input": "from typing import List, Any\n\n\ndef filterIntegers(values: List[Any]) -> List[int]:\n    \"\"\" Filter given list of any python values only for integers\n    >>> filterIntegers(['a', 3.14, 5])\n    [5]\n    >>> filterIntegers([1, 2, 3, 'abc', {}, []])\n    [1, 2, 3]\n    \"\"\"\n", "mean_logp": null}
