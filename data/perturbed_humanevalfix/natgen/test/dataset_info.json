@@ -1,0 +1,74 @@
+{
+  "builder_name": "perturbed_humanevalfix",
+  "citation": "@article{recode_wang2022,\n  title = {ReCode: Robustness Evaluation of Code Generation Models},\n  author = {Wang, Shiqi and\n   Zheng, Li and\n   Qian, Haifeng and\n   Yang, Chenghao and\n   Wang, Zijian and\n   Kumar, Varun and\n   Shang, Mingyue and\n   Tan, Samson and\n   Ray, Baishakhi and\n   Bhatia, Parminder and\n   Nallapati, Ramesh and\n   Ramanathan, Murali Krishna and\n   Roth, Dan and\n   Xiang, Bing},\n  doi = {10.48550/arXiv.2212.10264},\n  url = {https://arxiv.org/abs/2212.10264},\n  keywords = {Machine Learning (cs.LG), Computation and Language (cs.CL)},\n  publisher = {arXiv},\n  year = {2022},\n  copyright = {Creative Commons Attribution 4.0 International}\n}\n",
+  "config_name": "natgen",
+  "dataset_name": "perturbed_humanevalfix",
+  "dataset_size": 4841225,
+  "description": "Perturbed version of HumanEval from: ReCode: Robustness Evaluation of Code Generation Models\n",
+  "download_checksums": {
+    "natgen.tar.gz": {
+      "num_bytes": 1016331,
+      "checksum": null
+    }
+  },
+  "download_size": 1016331,
+  "features": {
+    "task_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "prompt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "entry_point": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "canonical_solution": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "test": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "seed": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "perturbation_name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "partial": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "declaration": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "buggy_solution": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "https://github.com/amazon-science/recode",
+  "license": "",
+  "size_in_bytes": 5857556,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 4841225,
+      "num_examples": 2296,
+      "dataset_name": "perturbed_humanevalfix"
+    }
+  },
+  "version": {
+    "version_str": "1.1.0",
+    "major": 1,
+    "minor": 1,
+    "patch": 0
+  }
+}
