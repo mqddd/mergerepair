@@ -1,4 +1,4 @@
-## MergeRepair
+## MergeRepair: An Exploratory Study on Merging Task-Specific Adapters in Code LLMs for Automated Program Repair
 This repository contains the replication package for the paper  
 [**MergeRepair: An Exploratory Study on Merging Task-Specific Adapters in Code LLMs for Automated Program Repair** (ICSME 2024)](https://arxiv.org/abs/2408.09568),  
 including the code, datasets, and instructions for running the experiments.
