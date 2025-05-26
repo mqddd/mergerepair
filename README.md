@@ -14,7 +14,7 @@ conda activate shared
 ## Model and Dataset Setup
 Download the models from [**starcoder2-3b**](https://huggingface.co/bigcode/starcoder2-3b) and [**granite-3b-code-base**](https://huggingface.co/ibm-granite/granite-3b-code-base-2k) and place downloaded files in the models directory. You can use other generative models considering the available amount of resources you can access to.
 
-Both the original HumanEvalFix dataset and its perturbed version are available in their respective folders within the data directory. If you wish to regenerate the perturbed HumanEvalFix dataset, follow the instructions provided in the evaluation directory of the ReCode repository. When using the ReCode repository to generate datasets, set the --datasets argument to `humanevalfix` to ensure the correct base dataset is used. All other options and settings should follow the original instructions provided in the ReCode repository.
+Both the original HumanEvalFix dataset (as part of the humanevalpack.json file in humanevalpack directory.) and its perturbed version are available in their respective folders within the data directory. If you wish to regenerate the perturbed HumanEvalFix dataset, follow the instructions provided in the evaluation directory of the ReCode repository. When using the ReCode repository to generate datasets, set the --datasets argument to `humanevalfix` to ensure the correct base dataset is used. All other options and settings should follow the original instructions provided in the ReCode repository.
 
 ## LoRA Tuning Task-Specific Adapters
 To fine-tune the models using LoRA adapters, use the `lora-tuning.py` script located in the `mergerrepair/tune/` directory.  
