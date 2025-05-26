@@ -75,5 +75,4 @@ Please cite our paper if you find it helpful in your work:
   journal={arXiv preprint arXiv:2408.09568},
   year={2024}
 }
-
 ```
