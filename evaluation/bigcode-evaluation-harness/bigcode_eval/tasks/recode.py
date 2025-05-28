@@ -139,7 +139,8 @@ class GeneralPerturbedHumanEval(Task):
         """
 
         # to be matched with the prompt used in the humanevalfix dataset from humanevalpack.py file
-        prompt_base = doc["declaration"]
+        # prompt_base = doc["declaration"]
+        prompt_base = doc["prompt"]
 
         instruction = f'Fix bugs in {doc["entry_point"]}.'
         context = prompt_base + doc["buggy_solution"]
