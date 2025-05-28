@@ -182,7 +182,6 @@ dependencies:
     - charset-normalizer==3.3.2
     - cheroot==10.0.1
     - cherrypy==18.10.0
-    - click==8.1.8
     - cloudpathlib==0.19.0
     - cloudpickle==3.0.0
     - cmake==3.30.4
@@ -198,7 +197,6 @@ dependencies:
     - docker-pycreds==0.4.0
     - docopt==0.6.2
     - effect-size-analysis==0.1.0
-    - en-core-web-sm==3.0.0
     - entrypoints==0.4
     - evaluate==0.4.1
     - feedparser==6.0.11
@@ -237,7 +235,6 @@ dependencies:
     - matplotlib==3.7.5
     - matplotlib-venn==1.1.2
     - mdurl==0.1.2
-    - mergekit==0.0.6
     - mlflow==2.14.0
     - more-itertools==10.5.0
     - mosestokenizer==1.0.0
@@ -264,7 +261,6 @@ dependencies:
     - pathlib-abc==0.1.1
     - pathspec==0.12.1
     - pathy==0.11.0
-    - pattern==3.6
     - pdfminer-six==20240706
     - peft==0.9.0
     - plotly==5.23.0
@@ -274,7 +270,7 @@ dependencies:
     - psutil==5.9.8
     - py-cpuinfo==9.0.0
     - py4j==0.10.9.7
-    - pydantic==2.10.6
+    - pydantic==1.7.4
     - pydantic-core==2.27.2
     - pyext==0.7
     - pygments==2.17.2
@@ -302,7 +298,6 @@ dependencies:
     - smart-open==6.4.0
     - smmap==5.0.1
     - soupsieve==2.6
-    - spacy==3.0.9
     - spacy-legacy==3.0.12
     - spacy-loggers==1.0.5
     - sqlalchemy==2.0.30
@@ -314,7 +309,6 @@ dependencies:
     - tensorboardx==2.6.2.2
     - thinc==8.0.17
     - threadpoolctl==3.2.0
-    - tokenizers==0.20.3
     - toml==0.10.2
     - toolwrapper==2.1.0
     - torch-summary==1.4.5
@@ -325,7 +319,6 @@ dependencies:
     - transformers==4.46.3
     - tree-sitter==0.21.3
     - triton==3.0.0
-    - trl==0.9.5.dev0
     - typer==0.3.2
     - typing-extensions==4.12.2
     - typing-inspect==0.9.0
