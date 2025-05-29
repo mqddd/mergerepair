@@ -45,6 +45,17 @@ class Task(ABC):
             # self.dataset['test'] = self.dataset['train']
             # self.dataset['test'] = self.dataset['test'].select(range(5))
 
+            nlaugmenter_discarded = [949, 1113, 1277, 1441, 1605]
+            # natgen_discarded = [293]
+
+            if category == 'nlaugmenter':
+                self.dataset['test'] = self.dataset['test'].select(
+                    (
+                        i for i in range(len(self.dataset['test'])) 
+                        if i not in set(nlaugmenter_discarded)
+                    )
+                )
+
             # print("Loaded dataset")
             print(self.dataset)
 
