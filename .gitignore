@@ -1,0 +1,2 @@
+# This dir contains environment secrets that should not be committed
+data/task-specific/*
