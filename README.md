@@ -10,6 +10,8 @@ To set up the environment, create a conda environment and install the required p
 conda env create -f environment.yml
 ```
 
+For the evaluation projects, i.e., bigcode-evaluation-harness and ReCode, you may also need to install their required packages using the `requirements.txt` or `environment.yml` files included in their directories.
+
 ## Model and Dataset Setup
 Download the models from [**starcoder2-3b**](https://huggingface.co/bigcode/starcoder2-3b) and [**granite-3b-code-base**](https://huggingface.co/ibm-granite/granite-3b-code-base-2k) and place downloaded files in the models directory. You can use other generative models considering the available amount of resources you can access to.
 
