@@ -4,11 +4,10 @@ This repository contains the replication package for the paper
 including the code, datasets, and instructions for running the experiments.
 
 ## Installing the Required Packages
-To set up the environment, create a conda environment and install the required packages using the `environment.yml` file with the following commands:
+To set up the environment, create a conda environment and install the required packages using the `environment.yml` file with the following command:
 
 ```bash
 conda env create -f environment.yml
-conda activate shared
 ```
 
 ## Model and Dataset Setup
@@ -22,7 +21,8 @@ Ensure you select the correct config file corresponding to the model you're tuni
 
 We use the same hyperparameter values as those reported in the original studies for each model. For `starcoder2-3b`, we follow the defaults from [**starcoder2**](https://github.com/bigcode-project/starcoder2), and for the `granite-3b-code-base` model, we use the values from [**granite-code models**](https://arxiv.org/pdf/2405.04324v1).
 
-After fine-tuning each model for a task, a separate LoRA adapter will be saved in the `out/` directory. These adapters can then be used in the merging script with different merging methods in the next step.
+After fine-tuning each model for a task, a separate LoRA adapter will be saved in the `out/` directory. These adapters can then be used in the merging script with different merging methods in the next step. We have uploaded the fine-tuned LoRA adapters to Hugging Face, and they are available for immediate download and use in merging and evaluation. The link to the fine-tuned LoRA adapters is provided below:
+[**Fine-tuned LoRA Adapters**](https://hf.co/collections/mqddd/mergerepair)
 
 ## Merging Adapters
 To merge the task-specific adapters, use the `merger.py` script located in the `merge/` directory.  
